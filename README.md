@@ -1,5 +1,7 @@
 # PIC training
 
+![](https://i.imgur.com/GjUPtvk.png)
+
 ## 1. Install Git
 
 If you are on windows you need to download [Git](https://git-scm.com/download/win) and optionally [GitHub Desktop](https://desktop.github.com/).
@@ -39,4 +41,4 @@ pip install "gdsfactory[full]" --upgrade
 
 From [GitHub](https://github.com/gdsfactory/vlcpic2023)
 
-![](https://i.imgur.com/FzvfSMZ.png)
+![notebooks](https://i.imgur.com/FzvfSMZ.png)
