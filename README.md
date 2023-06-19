@@ -2,7 +2,7 @@
 
 ## 1. Install Git
 
-If you are on windows you need to download [Git](https://git-scm.com/download/win) and optionally [GitHub Desktop](https://desktop.github.com/).
+- [ ] If you are on windows you need to download [Git](https://git-scm.com/download/win) and optionally [GitHub Desktop](https://desktop.github.com/).
 
 ## 2. Install Klayout
 
@@ -15,7 +15,7 @@ If you are on windows you need to download [Git](https://git-scm.com/download/wi
 
 ## 3. Install gdsfactory
 
-- [ ] Install [VSCode](https://code.visualstudio.com/) as an IDE.
+- [ ] Install [VSCode](https://code.visualstudio.com/) python editor to open the notebooks.
 - [ ] Install gdsfactory using pip in an anaconda prompt.
 
 ```
@@ -25,6 +25,4 @@ pip install "gdsfactory[full]" --upgrade
 
 ## 4. Download notebooks
 
-From [Download notebooks from GitHub](https://github.com/gdsfactory/vlcpic2023/archive/refs/heads/main.zip)
-
-![](https://i.imgur.com/GjUPtvk.png)
+- [ ] [Download notebooks](https://github.com/gdsfactory/vlcpic2023/archive/refs/heads/main.zip)
