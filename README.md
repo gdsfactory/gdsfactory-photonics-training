@@ -1,8 +1,8 @@
 # PIC training
 
-## 1. Install Git
+## 1. Install Python
 
-- [ ] If you are on windows you need to download [Git](https://git-scm.com/download/win) and optionally [GitHub Desktop](https://desktop.github.com/).
+- [ ] Make sure you have python 3.10 or 3.11 installed on your computer. Here is the [anaconda](https://www.anaconda.com/download/) installer.
 
 ## 2. Install Klayout
 
