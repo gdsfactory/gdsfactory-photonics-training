@@ -13,6 +13,8 @@ __pycache__/
 *.msh
 *.gds
 *.yml
+*.stl
+*.oas
 
 # Distribution / packaging
 .Python
