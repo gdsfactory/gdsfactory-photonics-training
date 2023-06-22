@@ -16,12 +16,12 @@
 ## 3. Install gdsfactory
 
 - [ ] Install [VSCode](https://code.visualstudio.com/) python editor to open the notebooks.
-- [ ] Install gdsfactory using pip in an anaconda prompt.
+- [ ] Install gdsfactory using pip in an anaconda prompt opened as `Administrator`.
 
 ```
 pip install "gdsfactory[full]" --upgrade
 ```
-![anaconda prompt](https://i.imgur.com/Fyal5sT.png)
+![anaconda prompt](https://i.imgur.com/eKk2bbs.png)
 
 ## 4. Download notebooks
 
