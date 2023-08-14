@@ -19,7 +19,7 @@
 - [ ] Install gdsfactory using pip in an anaconda prompt opened as `Administrator`.
 
 ```
-pip install "gdsfactory[full]" --upgrade
+pip install "gdsfactory gplugins[femwell,gmsh,meow,sax,tidy3d]" --upgrade
 ```
 ![anaconda prompt](https://i.imgur.com/eKk2bbs.png)
 
