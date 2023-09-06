@@ -6,13 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
-
 # Sims
 *.fsp
 *.csv
 *.msh
 *.gds
-*.yml
+notebooks/*.yml
 *.stl
 *.oas
 
