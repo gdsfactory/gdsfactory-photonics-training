@@ -18,10 +18,10 @@ dependencies = [
   "gdsfactory[cad]>=7.4.3,<7.5.0",
   "gplugins[tidy3d,sax,schematic]"
 ]
-description = "pic training"
+description = "pic_training"
 keywords = ["python"]
 license = {file = "LICENSE"}
-name = "pic training"
+name = "docs"
 readme = "README.md"
 requires-python = ">=3.10"
 version = "2.1.0"
@@ -96,18 +96,6 @@ select = [
   "B",  # flake8-bugbear
   "UP"
 ]
-
-[tool.ruff.per-file-ignores]
-"docs/notebooks/11_sparameters.py" = ['E402']
-"docs/notebooks/12_sim_plugins_tidy3d.py" = ['E402']
-"docs/notebooks/13_sim_plugins.py" = ['E402']
-"docs/notebooks/14_sax_tidy3d.py" = ['E402']
-"docs/notebooks/21_schematic_driven_layout.py" = ['E402']
-"docs/notebooks/31_data_analysis_mzi.py" = ['E402']
-"docs/notebooks/33_data_analysis_dbr.py" = ['E402']
-
-[tool.setuptools.package-data]
-mypkg = ["*.csv", "*.yaml"]
 
 [tool.setuptools.packages]
 find = {}
