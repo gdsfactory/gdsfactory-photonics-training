@@ -46,3 +46,4 @@ jobs:
         run: |
           mkdir -p $HOME/.tidy3d
           make docs
+          python .github/test_doc_errors.py
