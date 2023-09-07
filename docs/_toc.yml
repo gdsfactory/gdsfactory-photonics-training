@@ -1,0 +1,15 @@
+# Table of contents
+# Learn more at https://jterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+chapters:
+  - file: layout
+    sections:
+        - file: notebooks/10_layout.ipynb
+        - file: notebooks/11_drc.ipynb
+        - file: notebooks/20_modesolver_fem.ipynb
+        - file: notebooks/21_modesolver_fdfd.ipynb
+        - file: notebooks/22_heater_fem.ipynb
+        - file: notebooks/30_mzi.ipynb
+        - file: notebooks/31_ring.ipynb
