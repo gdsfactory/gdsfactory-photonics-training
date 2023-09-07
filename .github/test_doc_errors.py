@@ -1,7 +1,9 @@
 if __name__ == "__main__":
-    from gdsfactory.config import PATH
+    import pathlib
 
-    dirpath = PATH.repo / "docs" / "build" / "_html" / "reports"
+    module_path = pathlib.Path(__file__).parent.absolute()
+    repo = module_path.parent
+    dirpath = repo / "docs" / "build" / "_html" / "reports"
     error_files = list(dirpath.glob("*err.log"))
 
     if error_files:
