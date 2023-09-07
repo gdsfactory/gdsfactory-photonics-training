@@ -13,3 +13,5 @@ git-rm-merged:
 
 docs:
 	jb build docs
+
+.PHONY: docs
