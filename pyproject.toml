@@ -16,7 +16,7 @@ classifiers = [
 ]
 dependencies = [
   "gdsfactory[cad]>=7.4.3,<7.5.0",
-  "gplugins[tidy3d,sax,schematic]"
+  "gplugins[tidy3d,sax,schematic,femwell]"
 ]
 description = "pic_training"
 keywords = ["python"]

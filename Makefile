@@ -4,6 +4,7 @@ install:
 	pre-commit install
 
 dev: install
+	sudo apt-get install -y python3-gmsh gmsh libglu1-mesa libxi-dev libxmu-dev libglu1-mesa-dev
 
 update-pre:
 	pre-commit autoupdate
