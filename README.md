@@ -1,5 +1,9 @@
 # PIC training
 
+You can [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gdsfactory/gdsfactory-photonics-training)
+
+Or Install gdsfactory locally on your computer.
+
 ## 1. Install Python
 
 - [ ] Make sure you have python 3.10 or 3.11 installed on your computer. Here is the [anaconda](https://www.anaconda.com/download/) installer.

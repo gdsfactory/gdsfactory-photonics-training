@@ -15,4 +15,7 @@ git-rm-merged:
 docs:
 	jb build docs
 
+clean:
+	nbstripout --drop-empty-cells notebooks/*.ipynb
+
 .PHONY: docs
