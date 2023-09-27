@@ -9,7 +9,7 @@ author: gdsfactory
 execute:
   execute_notebooks: cache
   timeout: -1
-  allow_errors: true
+  # allow_errors: true
   # timeout: -1
   # execute_notebooks: force
   # execute_notebooks: "off"
