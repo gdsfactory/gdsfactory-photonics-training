@@ -1,4 +1,4 @@
-# PIC training
+# gdsfactory training
 
 You can [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gdsfactory/gdsfactory-photonics-training)
 
