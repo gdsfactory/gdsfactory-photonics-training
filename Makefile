@@ -1,6 +1,7 @@
 install:
 	pip install -e .[dev,docs]
-	pip install pre-commit
+	pip install git+https://github.com/gdsfactory/gplugins --force-reinstall
+	pip install git+https://github.com/gdsfactory/gdsfactory --force-reinstall
 	pre-commit install
 
 dev: install
