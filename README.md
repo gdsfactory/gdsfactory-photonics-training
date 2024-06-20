@@ -6,7 +6,7 @@ Or Install gdsfactory locally on your computer.
 
 ## 1. Install Python
 
-- [ ] Make sure you have python 3.10 or 3.11 installed on your computer. Here is the [anaconda](https://www.anaconda.com/download/) installer.
+- [ ] Make sure you have python 3.10, 3.11 or 3.12 installed on your computer. Here is the [anaconda](https://www.anaconda.com/download/) installer.
 
 ## 2. Install Klayout
 
