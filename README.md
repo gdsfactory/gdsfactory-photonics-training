@@ -25,6 +25,7 @@ Or Install gdsfactory locally on your computer.
 ```
 pip install "gdsfactory gplugins[femwell,gmsh,meow,sax,tidy3d]" --upgrade
 ```
+
 ![anaconda prompt](https://i.imgur.com/eKk2bbs.png)
 
 ## 4. Download notebooks
