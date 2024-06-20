@@ -6,7 +6,7 @@ Or Install gdsfactory locally on your computer.
 
 ## 1. Install Python
 
-- [ ] Make sure you have python 3.10 or 3.11 installed on your computer. Here is the [anaconda](https://www.anaconda.com/download/) installer.
+- [ ] Make sure you have python 3.10, 3.11 or 3.12 installed on your computer. Here is the [anaconda](https://www.anaconda.com/download/) installer.
 
 ## 2. Install Klayout
 
@@ -25,8 +25,9 @@ Or Install gdsfactory locally on your computer.
 ```
 pip install "gdsfactory gplugins[femwell,gmsh,meow,sax,tidy3d]" --upgrade
 ```
+
 ![anaconda prompt](https://i.imgur.com/eKk2bbs.png)
 
 ## 4. Download notebooks
 
-- [ ] [Download notebooks](https://github.com/gdsfactory/vlcpic2023/archive/refs/heads/main.zip)
+- [ ] [Download notebooks](https://github.com/gdsfactory/gdsfactory-photonics-training/archive/refs/heads/main.zip)
