@@ -29,4 +29,4 @@ pip install "gdsfactory gplugins[femwell,gmsh,meow,sax,tidy3d]" --upgrade
 
 ## 4. Download notebooks
 
-- [ ] [Download notebooks](https://github.com/gdsfactory/vlcpic2023/archive/refs/heads/main.zip)
+- [ ] [Download notebooks](https://github.com/gdsfactory/gdsfactory-photonics-training/archive/refs/heads/main.zip)
