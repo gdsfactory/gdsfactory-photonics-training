@@ -1,5 +1,8 @@
 # gdsfactory training
 
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/gdsfactory/gdsfactory-photonics-training/pages.yml)
+
+
 You can [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gdsfactory/gdsfactory-photonics-training)
 
 Or Install gdsfactory locally on your computer.
