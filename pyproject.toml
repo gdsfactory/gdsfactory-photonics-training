@@ -24,7 +24,7 @@ keywords = ["python"]
 license = {file = "LICENSE"}
 name = "docs"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 version = "2.1.0"
 
 [project.optional-dependencies]
@@ -40,28 +40,8 @@ docs = [
   "jupyter-book==1.0.2"
 ]
 
-[tool.black]
-exclude = '''  # Specify the files/dirs that should be ignored by the black formatter
-/(
-    \.eggs
-  | \.git
-  | \.hg
-  | \.mypy_cache
-  | \.tox
-  | \.venv
-  | env
-  | _build
-  | buck-out
-  | build
-  | dist
-)/
-'''
-include = '\.pyi?$'
-line-length = 88
-target-version = ['py310']
-
 [tool.mypy]
-python_version = "3.10"
+python_version = "3.11"
 strict = true
 
 [tool.pydocstyle]
@@ -97,6 +77,8 @@ select = [
   "B",  # flake8-bugbear
   "UP"
 ]
+[tool.codespell]
+ignore-words-list = "te, te/tm, te, ba, fpr, fpr_spacing, ro, nd, donot, schem"
 
 [tool.setuptools.packages]
 find = {}

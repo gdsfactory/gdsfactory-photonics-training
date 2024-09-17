@@ -1,29 +1,22 @@
-# gdsfactory training
+# GDSFactory training
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/gdsfactory/gdsfactory-photonics-training/pages.yml)
-
-
-You can [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gdsfactory/gdsfactory-photonics-training)
-
-Or Install gdsfactory locally on your computer.
+Installation instructions.
 
 ## 1. Install Python
 
-- [ ] Make sure you have python 3.10, 3.11 or 3.12 installed on your computer. Here is the [anaconda](https://www.anaconda.com/download/) installer.
+- [ ] Ensure that Python 3.11 or 3.12 is installed on your computer. You can download the [Anaconda Installer](https://www.anaconda.com/download/) for an easy setup.
 
 ## 2. Install Klayout
 
-- [ ] Download [klayout](https://www.klayout.de/build.html)
-- [ ] Install `klive` klayout plugin to be able to see live updates on your GDS files fom the klayout GUI `Tools --> Manage Packages --> Install New Packages --> Klive`
-- [ ] Install `gdsfactory` klayout plugin for the genericpdk layermap
+- [ ] Download and install [klayout](https://www.klayout.de/build.html)
+- [ ] Install `GDSFactory` klayout plugin to be able to see live updates on your GDS files from the klayout GUI `Tools --> Manage Packages --> Install New Packages --> GDSFactory`
 
-![KLayout klive](https://i.imgur.com/IZWH6U0.png)
-![KLayout package](https://i.imgur.com/AkfcCms.png)
+![image.png](https://i.imgur.com/CmCe9Vp.png)
 
-## 3. Install gdsfactory
+## 3. Install GDSFactory
 
-- [ ] Install [VSCode](https://code.visualstudio.com/) python editor to open the notebooks.
-- [ ] Install gdsfactory using pip in an anaconda prompt opened as `Administrator`.
+- [ ] Download and install [VSCode](https://code.visualstudio.com/), a Python editor, to open and work with the notebooks.
+- [ ] Install GDSFactory using pip in an anaconda prompt opened as `Administrator`.
 
 ```
 pip install "gdsfactory gplugins[femwell,gmsh,meow,sax,tidy3d]" --upgrade
@@ -31,6 +24,6 @@ pip install "gdsfactory gplugins[femwell,gmsh,meow,sax,tidy3d]" --upgrade
 
 ![anaconda prompt](https://i.imgur.com/eKk2bbs.png)
 
-## 4. Download notebooks
+## 4. Download the notebooks
 
-- [ ] [Download notebooks](https://github.com/gdsfactory/gdsfactory-photonics-training/archive/refs/heads/main.zip)
+- [ ] Download the training notebooks[here](https://github.com/gdsfactory/gdsfactory-photonics-training/archive/refs/heads/main.zip)
