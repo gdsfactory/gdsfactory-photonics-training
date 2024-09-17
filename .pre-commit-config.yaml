@@ -15,19 +15,19 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/kynan/nbstripout
-    rev: e4c5b4dcbab4afa0b88b7a9243db42b1a8d95dde
+    rev: 0.7.1
     hooks:
       - id: nbstripout
         files: ".ipynb"
-
-  - repo: https://github.com/shellcheck-py/shellcheck-py
-    rev: 953faa6870f6663ac0121ab4a800f1ce76bca31f
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.3.0
     hooks:
-      - id: shellcheck
-
+      - id: codespell
+        additional_dependencies:
+          - tomli
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: "v0.4.9"
+    rev: "v0.6.5"
     hooks:
       - id: ruff
-        args: [ --fix, --exit-non-zero-on-fix ]
+        args: [--fix, --exit-non-zero-on-fix]
       - id: ruff-format
