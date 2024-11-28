@@ -16,7 +16,7 @@ classifiers = [
   "Operating System :: OS Independent"
 ]
 dependencies = [
-  "gdsfactory==8.20.0",
+  "gdsfactory==8.21.0",
   "gplugins[tidy3d,sax,schematic,femwell]"
 ]
 description = "pic_training"
