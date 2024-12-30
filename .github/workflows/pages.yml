@@ -31,8 +31,7 @@ jobs:
         uses: astral-sh/setup-uv@v5
       - name: Installing the library
         run: |
-          make install
-          sudo apt install graphviz graphviz-dev -y
+          make dev
       - name: Build the docs
         env:
           GDSFACTORY_DISPLAY_TYPE: klayout
