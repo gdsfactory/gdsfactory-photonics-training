@@ -18,7 +18,7 @@ classifiers = [
 dependencies = [
   "gdsfactory~=8.28.0",
   "gplugins[tidy3d,sax,schematic,femwell]",
-  "numpy",
+  "numpy<2",
 ]
 description = "pic_training"
 keywords = ["python"]
