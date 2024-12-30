@@ -1,5 +1,5 @@
 install:
-	pip install -e .[dev,docs]
+	uv sync --extra docs --extra dev
 
 developer: install
 	pre-commit install
@@ -14,9 +14,9 @@ git-rm-merged:
 	git branch -D `git branch --merged | grep -v \* | xargs`
 
 docs:
-	jb build docs
+	uv run jb build docs
 
 clean:
-	nbstripout --drop-empty-cells notebooks/*.ipynb
+	uv run nbstripout --drop-empty-cells notebooks/*.ipynb
 
 .PHONY: docs
