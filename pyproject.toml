@@ -16,9 +16,9 @@ classifiers = [
   "Operating System :: OS Independent"
 ]
 dependencies = [
-  "gdsfactory~=8.27.1",
+  "gdsfactory~=8.28.0",
   "gplugins[tidy3d,sax,schematic,femwell]",
-  "numpy<2",
+  "numpy",
 ]
 description = "pic_training"
 keywords = ["python"]
