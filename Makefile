@@ -20,9 +20,8 @@ nbdocs:
 		xargs -P4 -I{} sh -c '\
 		echo "  [exec] {}"; \
 		jupyter nbconvert --to markdown --execute --embed-images \
-			--ExecutePreprocessor.allow_errors=True \
 			--ExecutePreprocessor.timeout=600 "{}" \
-			--output-dir docs/notebooks 2>/dev/null || true'
+			--output-dir docs/notebooks'
 	python docs/hooks.py docs/notebooks/*.md
 
 docs: nbdocs
