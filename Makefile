@@ -15,7 +15,7 @@ git-rm-merged:
 
 nbdocs:
 	@echo "Converting notebooks to markdown..."
-	@find docs -name "*.ipynb" | xargs -P4 -I{} sh -c '\
+	@find -L docs -name "*.ipynb" | xargs -P4 -I{} sh -c '\
 		echo "  [exec] {}"; \
 		jupyter nbconvert --to markdown --execute --embed-images \
 			--ExecutePreprocessor.allow_errors=True \
