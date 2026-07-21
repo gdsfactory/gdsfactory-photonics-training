@@ -1,0 +1,66 @@
+site_name: GDSFactory Photonics Training
+site_url: https://gdsfactory.github.io/gdsfactory-photonics-training
+repo_url: https://github.com/gdsfactory/gdsfactory-photonics-training
+repo_name: gdsfactory/gdsfactory-photonics-training
+docs_dir: .
+site_dir: _build/html
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - content.code.copy
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+nav:
+  - index.md
+  - Introduction:
+      - notebooks/10_layout_full.md
+      - notebooks/11_drc.md
+      - notebooks/20_modesolver_fem.md
+      - notebooks/21_modesolver_fdfd.md
+      - notebooks/22_heater_fem.md
+      - notebooks/30_mzi.md
+      - notebooks/31_ring.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      base_path:
+        - ..
+        - .
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

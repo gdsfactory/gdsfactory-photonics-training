@@ -10,8 +10,6 @@ authors = [
 ]
 classifiers = [
   "License :: OSI Approved :: MIT License",
-  "Programming Language :: Python :: 3.10",
-  "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Operating System :: OS Independent"
 ]
@@ -25,7 +23,7 @@ keywords = ["python"]
 license = {file = "LICENSE"}
 name = "docs"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 version = "2.1.0"
 
 [project.optional-dependencies]
@@ -36,13 +34,14 @@ dev = [
   "pre-commit"
 ]
 docs = [
-  "autodoc_pydantic",
+  "jupyter",
   "jupytext",
-  "jupyter-book==2.1.5"
+  "nbconvert",
+  "zensical>=0.0.46,<0.1.0"
 ]
 
 [tool.mypy]
-python_version = "3.11"
+python_version = "3.12"
 strict = true
 
 [tool.pydocstyle]
