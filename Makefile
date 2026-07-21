@@ -15,11 +15,14 @@ git-rm-merged:
 
 nbdocs:
 	@echo "Converting notebooks to markdown..."
-	@find -L docs -name "*.ipynb" | xargs -P4 -I{} sh -c '\
+	rm -rf docs/notebooks/*.md
+	find notebooks -maxdepth 1 -name "*.ipynb" | sort | \
+		xargs -P4 -I{} sh -c '\
 		echo "  [exec] {}"; \
 		jupyter nbconvert --to markdown --execute --embed-images \
 			--ExecutePreprocessor.allow_errors=True \
-			--ExecutePreprocessor.timeout=600 "{}" 2>/dev/null || true'
+			--ExecutePreprocessor.timeout=600 "{}" \
+			--output-dir docs/notebooks 2>/dev/null || true'
 	python docs/hooks.py docs/notebooks/*.md
 
 docs: nbdocs
