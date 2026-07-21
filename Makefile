@@ -13,10 +13,22 @@ update-pre:
 git-rm-merged:
 	git branch -D `git branch --merged | grep -v \* | xargs`
 
-docs:
-	uv run jb build docs
+nbdocs:
+	@echo "Converting notebooks to markdown..."
+	@find docs -name "*.ipynb" | xargs -P4 -I{} sh -c '\
+		echo "  [exec] {}"; \
+		jupyter nbconvert --to markdown --execute --embed-images \
+			--ExecutePreprocessor.allow_errors=True \
+			--ExecutePreprocessor.timeout=600 "{}" 2>/dev/null || true'
+	python docs/hooks.py docs/notebooks/*.md
+
+docs: nbdocs
+	zensical build --strict -f docs/zensical.yml
+
+docs-serve:
+	zensical serve -f docs/zensical.yml
 
 clean:
 	uv run nbstripout --drop-empty-cells notebooks/*.ipynb
 
-.PHONY: docs
+.PHONY: docs docs-serve nbdocs
