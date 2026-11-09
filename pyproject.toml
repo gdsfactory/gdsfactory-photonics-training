@@ -37,7 +37,7 @@ docs = [
   "jupyter",
   "jupytext",
   "nbconvert",
-  "zensical>=0.0.46,<0.1.0"
+  "zensical>=0.0.46,<0.2.0"
 ]
 
 [tool.mypy]
